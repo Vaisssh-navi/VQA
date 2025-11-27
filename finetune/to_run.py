@@ -1,0 +1,15 @@
+python -m mplug_owl2.train.train_mem \
+  --model_name_or_path /path/to/mmca_or_mplug-owl2 \
+  --data_path /path/to/mmc_instruction_train.json \
+  --image_folder /path/to/mmc_instruction_images \
+  --output_dir /path/to/output_q_lora_test \
+  --per_device_train_batch_size 1 \
+  --gradient_accumulation_steps 1 \
+  --num_train_epochs 0.01 \
+  --bits 4 \
+  --lora_enable True \
+  --lora_r 64 \
+  --lora_alpha 128 \
+  --learning_rate 1e-4 \
+  --freeze_vision_model True \
+  --tune_visual_abstractor True
