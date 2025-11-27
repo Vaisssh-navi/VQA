@@ -95,4 +95,36 @@ python finetune/to_run.py
 
 ---
 
-This README provides a quick guide to understand the folder layout and how to run each component.
+
+### 📚 Dataset
+We use the **MMC Dataset** released with the NAACL 2024 paper:
+👉 https://huggingface.co/datasets/xywang1/MMC
+
+It includes:
+- MMC-Alignment
+- MMC-Instruction
+- MMC-Benchmark (Text + MQA)
+
+### 🤖 Base Model
+The project is built on top of the **mPLUG-Owl2** multimodal LLM:
+👉 https://github.com/X-PLUG/mPLUG-Owl/tree/main/mPLUG-Owl2
+
+It provides:
+- Vision encoder (ViT-L)
+- Vicuna-7B language model
+- Multimodal fusion architecture
+
+
+## 📄 Citation
+
+If you use this project, please cite the original MMC dataset and mPLUG-Owl2 model:
+
+**MMC Dataset**
+Liu et al., "MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning", NAACL 2024.
+
+**mPLUG-Owl2**
+Ye et al., "mPLUG-Owl2: Multi-modal Large Language Model", 2023.
+
+
+
+
