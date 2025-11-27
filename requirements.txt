@@ -1,0 +1,16 @@
+torch
+torchvision
+torchaudio
+transformers>=4.34.0
+accelerate
+gradio
+bitsandbytes
+sentencepiece
+protobuf
+numpy
+pandas
+Pillow
+tqdm
+requests
+scikit-learn
+matplotlib
