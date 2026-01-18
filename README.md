@@ -115,15 +115,7 @@ It provides:
 - Multimodal fusion architecture
 
 
-## 📄 Citation
 
-If you use this project, please cite the original MMC dataset and mPLUG-Owl2 model:
-
-**MMC Dataset**
-Liu et al., "MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning", NAACL 2024.
-
-**mPLUG-Owl2**
-Ye et al., "mPLUG-Owl2: Multi-modal Large Language Model", 2023.
 
 
 
